@@ -1,7 +1,13 @@
 {
   "name": "acidnade",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "Acidnade backend + site (Vercel serverless)",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
   "dependencies": {
     "uuid": "^9.0.1"
   }
